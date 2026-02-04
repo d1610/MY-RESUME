@@ -1,15 +1,26 @@
+body {
+  color: #333333; /* default text color */
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
 
-#Headingr
-{text-align: center;
-    color: black;
-  
-    font-size: 50px;
-    border-radius: 100px} 
+h1 {
+  background-color: #f0f4f8; /* subtle background for the main heading */
+  color: #1a2b3c; /* heading text color */
+  padding: 1rem;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
 
-#p {color: white;
-background-color: black;}
+/* small helpers to make the resume look slightly cleaner */
+h2, h3, h4 {
+  color: #222222;
+  margin: 0.5rem 0;
+}
 
-#div {margin-left:  500px ;
-    border-radius: 90%;
-padding: 200px;
-background-color: black;}
+p {
+  color: #333333;
+  margin: 0.25rem 0 0.75rem 0;
+}
